@@ -1,13 +1,13 @@
 Types
 =====
 
-The following types are available from the ``eth_typing`` module.
+The following types are available from the ``platon_typing`` module.
 
 i.e.
 
 .. code-block:: python
 
-    from eth_typing import TypeStr
+    from platon_typing import TypeStr
 
 ABI
 ---
@@ -109,7 +109,7 @@ ChecksumAddress
 
 Any HexAddress_ that is formatted according to ERC55_.
 
-.. _ERC55: https://github.com/ethereum/EIPs/issues/55
+.. _ERC55: https://github.com/platonnetwork/EIPs/issues/55
 
 .. code-block:: python
 
@@ -166,9 +166,9 @@ Any string that is hex encoded.
 Primitives
 ~~~~~~~~~~
 
-Any of `bytes`, `int`, or `bool` used as the `Primitive` arg for conversion utils in ETH-Utils_.
+Any of `bytes`, `int`, or `bool` used as the `Primitive` arg for conversion utils in PLATON-Utils_.
 
-.. _ETH-Utils: https://github.com/ethereum/eth-utils/
+.. _PLATON-Utils: https://github.com/platonnetwork/platon-utils/
 
 .. code-block:: python
 

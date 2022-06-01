@@ -27,6 +27,7 @@ from .evm import (  # noqa: F401
     BlockIdentifier,
     BlockNumber,
     ChecksumAddress,
+    Bech32Address,
     Hash32,
     HexAddress,
 )

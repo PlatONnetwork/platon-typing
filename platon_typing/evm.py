@@ -15,4 +15,6 @@ BlockIdentifier = Union[BlockNumber, Hash32]
 Address = NewType('Address', bytes)
 HexAddress = NewType('HexAddress', HexStr)
 ChecksumAddress = NewType('ChecksumAddress', HexAddress)
-AnyAddress = TypeVar('AnyAddress', Address, HexAddress, ChecksumAddress)
+Bech32Address = NewType('Bech32Address', str)
+AnyAddress = TypeVar('AnyAddress', Address, HexAddress, ChecksumAddress, Bech32Address)
+

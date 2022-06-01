@@ -24,12 +24,12 @@ v1.0.0
 v0.3.1
 ------
 
-- Removed ``eth-utils`` requirement.
+- Removed ``platon-utils`` requirement.
 
 v0.3.0
 ------
 
-- Updated ``eth-utils`` requirement.
+- Updated ``platon-utils`` requirement.
 
 v0.2.0
 ------

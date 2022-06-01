@@ -1,7 +1,7 @@
-eth-typing
+platon-typing
 ==============================
 
-Common type annotations for ethereum python packages.
+Common type annotations for platon python packages.
 
 Contents
 --------

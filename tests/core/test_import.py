@@ -1,4 +1,4 @@
 
 
 def test_import():
-    import eth_typing  # noqa: F401
+    import platon_typing  # noqa: F401

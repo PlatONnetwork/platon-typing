@@ -1,1 +1,1 @@
-eth-typing[doc]
+platon-typing[doc]

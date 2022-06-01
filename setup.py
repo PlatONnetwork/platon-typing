@@ -43,24 +43,24 @@ with open('./README.md') as readme:
 
 
 setup(
-    name='eth-typing',
+    name='platon-typing',
     # *IMPORTANT*: Don't manually change the version here. Use `make bump`, as described in readme
-    version='2.2.2',
-    description="""eth-typing: Common type annotations for ethereum python packages""",
+    version='1.2.0',
+    description="""platon-typing: Common type annotations for platon python packages""",
     long_description=long_description,
     long_description_content_type='text/markdown',
-    author='The Ethereum Foundation',
-    author_email='snakecharmers@ethereum.org',
-    url='https://github.com/ethereum/eth-typing',
+    author='Shinnng',
+    author_email='shinnng@outlook.com',
+    url='https://github.com/platonnetwork/platon-typing',
     include_package_data=True,
     python_requires='>=3.5, <4',
     extras_require=extras_require,
-    py_modules=['eth_typing'],
+    py_modules=['platon_typing'],
     license="MIT",
     zip_safe=False,
-    keywords='ethereum',
+    keywords='platon',
     packages=find_packages(exclude=["tests", "tests.*"]),
-    package_data={'eth_typing': ['py.typed']},
+    package_data={'platon_typing': ['py.typed']},
     classifiers=[
         'Development Status :: 5 - Production/Stable',
         'Intended Audience :: Developers',
